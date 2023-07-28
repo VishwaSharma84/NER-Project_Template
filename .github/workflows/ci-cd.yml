@@ -1,4 +1,4 @@
-# # uncomment below lines to use CML
+# # # uncomment below lines to use CML
 # name: DVC-project
 
 # on: [push]
@@ -11,11 +11,11 @@
 #       - uses: iterative/setup-cml@v1
 #       - uses: actions/setup-python@v2
 #         with:
-#           python-version: '3.7'
+#           python-version: '3.8'
 
 #       - name: cml-run
 #         env: 
-#           repo_token: ${{ secrets.GITHUB_TOKEN }}
+#           repo_token: ${{ secrets._GITHUB_TOKEN }}
 #         run: |
 #           # Your ML wokflow commands
 #           pip install --upgrade pip
